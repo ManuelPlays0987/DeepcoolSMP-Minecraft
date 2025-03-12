@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body  {
+  width: 100%;
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.5)50%, rgb(0, 0, 0, 0.5)50%), url('MinecraftCherry.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: navyblue;
+  height: 100vh;
+}
+.main  {
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.5)50%, rgb(0, 0, 0, 0.5)50%);
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: left;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 75px;
+}
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: sans-serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  font-style: italic;
+}
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 15px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: #ff7200;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 9%;
+}
+p {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: serif;
+}
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: serif;
+}
